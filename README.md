@@ -1,6 +1,6 @@
 # Checklist for Jira for Cursor
 
-Cursor plugin for [Checklist for Jira](https://marketplace.atlassian.com/apps/2797342217/checklists-for-jira) by RMK Labs. It connects Cursor to the Checklist MCP server hosted by Atlassian.
+Cursor plugin for [Checklist for Jira](https://marketplace.atlassian.com/apps/2797342217/checklists-for-jira) by RMK Labs. It connects Cursor to Checklist for Jira over MCP.
 
 The tools are the same checklist actions the Checklist agent uses in Jira. Each call runs as the person who signed in, on the site they selected.
 
@@ -10,13 +10,7 @@ Install Checklist for Jira on the Jira site. A Jira admin then turns on **Expose
 
 ## Install
 
-When this plugin is listed, install **Checklist for Jira** from Customize in Cursor.
-
-To load this repository locally before it is listed:
-
-1. Copy this directory to `~/.cursor/plugins/local/checklist-for-jira`.
-2. Reload the window.
-3. Open Customize and confirm the Checklist MCP server is present.
+[Add Checklist for Jira to Cursor](https://cursor.directory/plugins/checklist-for-jira).
 
 You can also add the server in `mcp.json`:
 
@@ -25,15 +19,17 @@ You can also add the server in `mcp.json`:
   "mcpServers": {
     "checklist-for-jira": {
       "type": "http",
-      "url": "https://mcp.atlassian.com/forge/7e9846ba-398d-4bcb-af2b-cc9d8908e161"
+      "url": "https://checklist-for-jira-mcp.rmk-labs.co/"
     }
   }
 }
 ```
 
-One-click install:
+To load this repository locally:
 
-[cursor://anysphere.cursor-deeplink/mcp/install?name=checklist-for-jira&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vbWNwLmF0bGFzc2lhbi5jb20vZm9yZ2UvN2U5ODQ2YmEtMzk4ZC00YmNiLWFmMmItY2M5ZDg5MDhlMTYxIn0=](cursor://anysphere.cursor-deeplink/mcp/install?name=checklist-for-jira&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vbWNwLmF0bGFzc2lhbi5jb20vZm9yZ2UvN2U5ODQ2YmEtMzk4ZC00YmNiLWFmMmItY2M5ZDg5MDhlMTYxIn0=)
+1. Copy this directory to `~/.cursor/plugins/local/checklist-for-jira`.
+2. Reload the window.
+3. Open Customize and confirm the Checklist MCP server is present.
 
 ## Sign in
 
