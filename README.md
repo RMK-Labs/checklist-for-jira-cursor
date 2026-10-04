@@ -10,9 +10,7 @@ Install Checklist for Jira on the Jira site. A Jira admin then turns on **Expose
 
 ## Install
 
-[Add Checklist for Jira to Cursor](https://cursor.directory/plugins/checklist-for-jira).
-
-You can also add the server in `mcp.json`:
+Add the server in `mcp.json`:
 
 ```json
 {
@@ -24,6 +22,8 @@ You can also add the server in `mcp.json`:
   }
 }
 ```
+
+The plugin is listed on the [Cursor Directory](https://cursor.directory/plugins/checklist-for-jira). That listing's one-click config still points at the Atlassian Forge URL. Use `https://checklist-for-jira-mcp.rmk-labs.co/` until the listing is updated.
 
 To load this repository locally:
 
