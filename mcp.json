@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "checklist-for-jira": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/forge/7e9846ba-398d-4bcb-af2b-cc9d8908e161"
+    }
+  }
+}
