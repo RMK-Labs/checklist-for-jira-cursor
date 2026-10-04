@@ -14,9 +14,18 @@
   "homepage": "https://rmk-labs.atlassian.net/wiki/spaces/CFJWRAA/pages/260112407/Cursor+MCP+connector",
   "repository": "https://github.com/RMK-Labs/checklist-for-jira-cursor",
   "license": "MIT",
-  "logo": "assets/logo.svg",
-  "keywords": ["jira", "checklist", "mcp", "atlassian"],
+  "logo": "assets/logo.png",
+  "keywords": [
+    "jira",
+    "checklist",
+    "mcp",
+    "atlassian"
+  ],
   "category": "integrations",
-  "tags": ["mcp", "jira", "checklist"],
+  "tags": [
+    "mcp",
+    "jira",
+    "checklist"
+  ],
   "mcpServers": "./mcp.json"
 }
