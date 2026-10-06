@@ -35,6 +35,16 @@ To load this repository locally:
 2. Reload the window.
 3. Open Customize and confirm the Checklist MCP server is present.
 
+On Enterprise, an admin turns on **Allow Local Plugin Imports** under Dashboard → Settings → Security & Identity → Marketplace and Plugins before a local copy loads.
+
+## Team marketplace
+
+A team admin on a Teams or Enterprise plan imports this repository from Dashboard → Plugins & MCPs → Team Marketplaces → Add Marketplace → Import from Repo:
+
+`https://github.com/RMK-Labs/checklist-for-jira-cursor`
+
+`.cursor-plugin/marketplace.json` lists the Checklist for Jira plugin. Each person installs it from Customize and signs in to Jira. This does not register the server for Cloud Agents. Add the same HTTP server under Dashboard → Plugins & MCPs for that.
+
 ## Sign in
 
 After you finish setting up the connector, Cursor asks you to sign in to Jira. Follow the instructions and select your site.
