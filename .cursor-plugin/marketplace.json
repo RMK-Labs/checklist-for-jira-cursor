@@ -1,0 +1,20 @@
+{
+  "name": "checklist-for-jira",
+  "owner": {
+    "name": "RMK Labs",
+    "email": "support@rmk-labs.com"
+  },
+  "metadata": {
+    "description": "Checklist for Jira for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "checklist-for-jira",
+      "source": ".",
+      "description": "Create and update checklists, items, and templates on Jira issues.",
+      "minClientVersions": {
+        "cursor": "3.13.0"
+      }
+    }
+  ]
+}
