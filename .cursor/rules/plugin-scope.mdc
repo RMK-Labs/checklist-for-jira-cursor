@@ -1,0 +1,9 @@
+---
+description: This repository is the secondary Cursor plugin. The Forge app lives in jira-checklists.
+globs: "**/*"
+alwaysApply: false
+---
+`checklist-for-jira-cursor` is the secondary repository in Checklist Env. `jira-checklists` is the primary Forge app.
+
+- Keep changes here to the Cursor plugin: `.cursor-plugin/`, `mcp.json`, assets, and this repo's docs.
+- Do not add Forge resolvers, custom UI, or the Cloud Agent install script here.
