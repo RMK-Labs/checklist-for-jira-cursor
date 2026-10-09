@@ -56,3 +56,5 @@ Setup steps for customers are on the [Cursor MCP connector](https://rmk-labs.atl
 - Documentation: [MCP Server](https://rmk-labs.atlassian.net/wiki/spaces/CFJWRAA/pages/258211841/MCP+Server)
 - Privacy policy: [Privacy Policy](https://rmk-labs.atlassian.net/wiki/spaces/CFJWRAA/pages/29065256/Privacy+Policy)
 - Email: support@rmk-labs.com
+
+<!-- Smoke test: cloud agent can open a pull request against checklist-for-jira-cursor. Safe to close without merging. -->
